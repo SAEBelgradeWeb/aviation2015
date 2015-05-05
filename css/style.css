@@ -1,0 +1,173 @@
+/* 
+teget #274f75
+zelena #84bf0e
+crvena #c80808
+tamno siva #3f3f3f
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #274f75;
+}
+
+div {
+	/*border: 1px solid red;*/
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+/* HEADER */
+#header {
+	background-color: #274f75;
+	height: 147px;
+}
+
+
+#header_left, #header_right {
+	float: left;
+}
+
+#header_left {
+	width: 68%;
+}
+
+#header_right {
+	width: 32%;
+}
+
+#header_right h2 {
+	color:#bdc5cf;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 200;
+	text-align: right;
+	
+}
+
+#header_right h2:first-child {
+	margin-top: 46px;
+}
+
+#header_right h2:last-child {
+	margin-top: 18px;
+}
+
+#header_left h1 {
+	color: white;
+	font-family: Times, serif;
+	font-size: 64px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 34px;
+	margin-bottom: 0;
+	text-shadow: 0 2px 0 #0e3653;
+}
+
+
+
+
+#navigation {
+	background-color: #84bf0e;
+	background-image: url('../images/nav_bg_green.jpg');
+	background-repeat: repeat-x;
+	height: 37px;
+	border-bottom: 1px solid  #c80808;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	list-style-type: none;
+	float: left;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 28px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #28485e;
+}
+
+nav ul li a:hover {
+	background-color: white;
+	background-image: url('../images/nav_bg_white.jpg');
+	background-repeat: repeat-x;
+	border-bottom: 6px solid #c80808;
+}
+
+
+
+#hero {
+	height: 595px; /* 495 */
+	background-color: white;
+	background-image: url(../images/nebo_grad.jpg);
+	background-repeat: repeat-x;
+}
+
+#clouds {
+	background-image: url(../images/boy.jpg);
+	width: 1326px;
+	height:455px;
+	margin:0 auto;
+}
+
+#hero h1 {
+	margin-top:0;
+	padding-top: 115px;
+	font-family: Times;
+	color: #274f75;
+	font-size: 58px;
+	width: 400px;
+	text-shadow: 0 2px 0 white;
+}
+
+#hero h2 {
+	font-family: Arial;
+	font-size: 25px;
+	color:  #274f75;
+	font-weight: normal;
+	width: 380px;
+	text-shadow: 0 2px 0 white;
+}
+
+#content {
+	height: 691px;
+	background-color: white;
+	position: relative;
+}
+
+#content .container {
+	
+	position: relative;
+	
+
+}
+
+#content .inner_container {
+	background-image: url(../images/content_frame.jpg);
+	background-repeat: no-repeat;
+	height: 107px;
+	width: 948px;
+	position: absolute;
+	top: -140px;
+	left: -4px;	
+	padding: 38px 25px;
+}
+
+
+#footer {
+	height: 108px;
+	background-color: #274f75;
+	border-top: 1px solid #c80808; 
+}
